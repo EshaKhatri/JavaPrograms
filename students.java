@@ -20,28 +20,36 @@ class students{
 
     void compute(){
         int sum=0,sum_credits=0;
-        for(int i=0;i<5;i++){
-            if(marks[i]>90 && marks[i]<=100){
+        for(int i=0;i<5;i++)
+	{
+            	if(marks[i]>90 && marks[i]<=100)
+		{
                 sum=sum + credits[i]*10;
-            }
-			else if (marks[i]>80 && marks[i]<=90) {
+           	}
+		else if (marks[i]>80 && marks[i]<=90) 
+		{
                 sum=sum + credits[i]*9;
-            }
-			else if (marks[i]>70 && marks[i]<=80) {
+            	}
+		else if (marks[i]>70 && marks[i]<=80)
+		{
                 sum=sum + credits[i]*8;
-            }
-			else if (marks[i]>60 && marks[i]<=70) {
+            	}
+		else if (marks[i]>60 && marks[i]<=70) 
+		{
                 sum=sum + credits[i]*7;
-            }
-			else if (marks[i]>50 && marks[i]<=60) {
+            	}
+		else if (marks[i]>50 && marks[i]<=60) 
+		{
                 sum=sum + credits[i]*6;
-            }
-			else if (marks[i]>=40 && marks[i]<=50) {
+            	}
+		else if (marks[i]>=40 && marks[i]<=50) 
+		{
                 sum=sum + credits[i]*5;
-            }
-            else{
+            	}
+            	else
+		{
                 sum=sum+0;
-            }
+            	}
             sum_credits=sum_credits+credits[i];
         }
 
