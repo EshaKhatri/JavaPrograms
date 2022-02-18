@@ -30,7 +30,7 @@ class students{
 		{
                 sum=sum + credits[i]*9;
             	}
-		else if (marks[i]>70 && marks[i]<=80)
+		else if (marks[i]>70 && marks[i]<=80) 
 		{
                 sum=sum + credits[i]*8;
             	}
