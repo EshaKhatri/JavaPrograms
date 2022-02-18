@@ -37,6 +37,7 @@ public class week10 extends Frame implements ActionListener
                                     {
                                                 Dia d1=new Dia("Arithmetic Exception");
                                                 d1.setVisible(true);
+                                                
                                     }
                                     catch(NumberFormatException nfe)
                                     {
